@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 9vh;
+  background-color: aqua;
+}
+header .head-lent {
+  width: 100%;
+  height: 25%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .head-lent .h-head {
+  color: white;
+  font-size: 8px;
+  margin-top: 15px;
+}
+header .head-lent .h-head a {
+  color: white;
+  font-size: 9px;
+}
+header nav {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .nav-items {
+  width: 90%;
+  height: 100%;
+  display: flex;
+}
+header nav .nav-items .logo {
+  display: flex;
+  align-items: center;
+}
+header nav .nav-items .logo .logo-font {
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+header nav .nav-items .nav-links {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header nav .nav-items .nav-links ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 20px;
+}
+header nav .nav-items .nav-links ul a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+header nav .nav-items .src {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header nav .nav-items .src input {
+  width: 35vw;
+  height: 25px;
+  border-radius: 50px;
+  border: none;
+  padding-left: 8%;
+  font-size: 10px;
+  background-color: #F0F0F0;
+}
+header nav .nav-items .src #src-icon {
+  position: absolute;
+  top: 37%;
+  left: 2%;
+  font-size: 14px;
+  color: gray;
+}
+header nav .nav-items .login {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10pxs;
+}
+header nav .nav-items .login a {
+  color: black;
+}
+header nav .nav-items .login a i {
+  font-size: 14px;
+}
+
+#section-a {
+  width: 100%;
+  height: 70vh;
+  background-color: #F2F0F1;
+  display: flex;
+  justify-content: center;
+}
+#section-a .secA-items {
+  width: 90%;
+  height: 100%;
+  background-color: #F2F0F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-a .secA-items .secA-text {
+  width: 60%;
+  height: 70%;
+}
+#section-a .secA-items .secA-text h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#section-a .secA-items .secA-text p {
+  margin-bottom: 20px;
+}
+#section-a .secA-items .secA-text a {
+  padding: 10px 35px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 300;
+}
+#section-a .secA-items .secA-text .raiting-a {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  margin-top: 30px;
+}
+#section-a .secA-items .secA-text .raiting-a div {
+  border-right: 1px solid gray;
+  margin: 20px;
+  padding: 20px;
+}
+#section-a .secA-items .secA-text .raiting-a div:last-child {
+  border: none;
+}
+#section-a .secA-items .secA-image {
+  width: 40%;
+  height: 100%;
+}
+#section-a .secA-items img {
+  width: 100%;
+  height: 100%;
+}
+
+#section-b {
+  width: 100%;
+  height: 80px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+#section-b .firm-logo {
+  width: 90%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+#section-b .firm-logo img {
+  width: 30%;
+  cursor: pointer;
+}
+
+#section-c {
+  width: 100%;
+  height: auto;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section-c .secC-text {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-c .secC-text h1 {
+  font-weight: 600;
+  font-size: 50px;
+}
+#section-c .secC-items {
+  width: 90%;
+  height: 100%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}

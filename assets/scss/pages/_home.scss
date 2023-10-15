@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 9vh;
+    background-color: aqua;
+
+    .head-lent {
+        width: 100%;
+        height: 25%;
+        background-color: black;
+        @include flex;
+
+        .h-head {
+            color: white;
+            font-size: 8px;
+            margin-top: 15px;
+           
+            a {
+                color: white;
+                font-size: 9px;
+            }
+        }  
+    }
+
+   nav {
+    width: 100%;
+    height: 100%;
+    background-color:aqua;
+    @include flex;
+
+    .nav-items {
+        width: 90%;
+        height: 100%;
+        display: flex;
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            .logo-font{
+                font: {
+                    size: 30px;
+                    weight: bolder;
+                }
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .nav-links {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                gap: 20px;
+
+                a{
+                    text-decoration: none;
+                    font-size: 12px;
+                    color: black;
+                }
+            }
+        }
+
+        .src {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            input {
+                width: 35vw;
+                height: 25px;
+                border-radius: 50px;
+                border: none;
+                padding-left: 8%;
+                font-size: 10px; 
+                background-color: #F0F0F0;
+            }
+
+            #src-icon {
+                position: absolute;
+                top: 37%;
+                left: 2%;
+                font-size: 14px;
+                color: gray;
+            }
+        }
+
+        .login {
+            width: auto;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10pxs;
+
+            a {
+                color: black;
+                i {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+   }   
+}
+
+
+#section-a {
+    width: 100%;
+    height: 70vh;
+    background-color: #F2F0F1;
+    display: flex;
+    justify-content: center;
+
+
+    
+
+
+
+    .secA-items {
+        width: 90%;
+        height: 100%;
+        background-color: #F2F0F1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .secA-text {
+            width: 60%;
+            height: 70%;
+
+            h1 {
+                font-weight: bold;
+                margin-bottom: 20px;
+            } 
+
+            p {
+                margin-bottom: 20px;
+            }
+
+            a {
+                padding: 10px 35px;
+                background-color: black;
+                color: white;
+                border-radius: 20px;
+                text-decoration: none;
+                font-weight: 300;
+            }
+
+            .raiting-a {
+                display: flex;
+                align-items: end;
+                gap: 10px;
+                margin-top: 30px;
+               
+                div {
+                    border-right: 1px solid gray;
+                    margin: 20px;
+                    padding: 20px;
+                }
+
+                div:last-child {
+                    border: none;
+                }
+            }
+        }
+
+
+       .secA-image {
+        width: 40%;
+        height: 100%;
+        } 
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    
+}
+
+
+#section-b {
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+    .firm-logo {
+        width: 90%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 30%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+#section-c {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .secC-text {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-weight: 600;
+            font-size: 50px;
+        }
+    }
+
+    .secC-items {
+        width: 90%;
+        height: 100%;
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+        
+    }
+}
